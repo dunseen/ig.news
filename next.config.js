@@ -5,5 +5,6 @@ module.exports = {
     GITHUB_ID: "d61f0ab6531cd2d2e683",
     GITHUB_SECRET: "2409037c2686cfcff6181f4b7f2b008ccd4f26e4",
     FAUNA_DB: "fnAEFIH7exACBk4f1A9smYgQOBk10hMjGznosn4P",
+    SIGNIN_KEY: "9ed2f3a50bff89559dd8fa0f23b868ac",
   },
 };
