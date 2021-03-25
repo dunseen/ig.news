@@ -8,12 +8,13 @@ export default async (req: NextApiRequest, response: NextApiResponse) => {
 
     const stripeCustumer = await stripe.customers.create({
       email: session.user.email,
+      name: session.user.name,
     });
 
     const stripeCheckoutSession = await stripe.checkout.sessions.create({
       customer: stripeCustumer.id,
       payment_method_types: ["card"],
-      billing_address_collection: "required",
+      // billing_address_collection: "required",
       line_items: [{ price: "price_1IYUAvEO66ZMERDoB5HQjclY", quantity: 1 }],
       mode: "subscription",
       allow_promotion_codes: true,
