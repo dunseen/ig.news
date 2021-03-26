@@ -4,6 +4,7 @@ module.exports = {
       "sk_test_51IYU78EO66ZMERDoioktuW93cD4vVOy6TUvzoNdpi2cUXNRZBwEpxfsILea04M4EGTMTQikuz9KFnAqOdn01hTiv00aGEuxhDF",
     STRIPE_SUCCESS_URL: "http://localhost:3000/posts",
     STRIPE_CANCEL_URL: "http://localhost:3000",
+    STRIPE_WEBHOOK_SECRET: "whsec_KTYd3Y2v6wqiIS8n9ZibWqvJ1fGM1SMk",
     NEXT_PUBLIC_STRIPE_PUBLIC_KEY:
       "pk_test_51IYU78EO66ZMERDo9uDHWGasq9itUADtioBZvTRKhD9wN6cYVerBhmi4u4FEjnYLR6QE9U0v4LHIM32LnbAmAdMX00QqVPkaeq",
     GITHUB_ID: "d61f0ab6531cd2d2e683",
