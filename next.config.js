@@ -13,5 +13,6 @@ module.exports = {
     SIGNIN_KEY: "9ed2f3a50bff89559dd8fa0f23b868ac",
     PRISMIC_ACESS_TOKEN:
       "MC5ZR0tLdVJJQUFDRUFQdGRl.77-9Ie-_ve-_vT4_77-977-9Pu-_ve-_ve-_ve-_vR1R77-9JO-_vSFD77-9bBMFNu-_ve-_ve-_ve-_vXZsQw",
+    PRISMIC_END_POINT: "https://ignews001.cdn.prismic.io/api/v2",
   },
 };
