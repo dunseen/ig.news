@@ -6,12 +6,12 @@
 
 :root {
     --white: #FFFFFF;
-    --grey-100: #E1E1E6;
-    --grey-300:  #A8A8B3;
-    --grey-700: #323238;
-    --grey-800: #29292E;
-    --grey-850: #1F2729;
-    --grey-900: #121214;
+    --gray-100: #E1E1E6;
+    --gray-300:  #A8A8B3;
+    --gray-700: #323238;
+    --gray-800: #29292E;
+    --gray-850: #1F2729;
+    --gray-900: #121214;
 
     --cyan-500: #61DAFD;
     --yellow-500: #EBA417;
@@ -30,7 +30,7 @@
 }
 
 body {
-    background: var(--grey-900);
+    background: var(--gray-900);
     color: var(--white);
 }
 
